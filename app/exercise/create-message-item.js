@@ -1,2 +1,5 @@
-export default null;
-import createMessageItem from '../../app/exercise/create-message-item';
+
+export default function (message) {
+  const createMessageItem = document.createElement('li');
+  return createMessageItem;
+}
