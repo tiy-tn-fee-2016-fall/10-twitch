@@ -5,7 +5,6 @@ function fixWhitespace(str) {
   return str.replace(/\s+/g, ' ').trim();
 }
 
-import createMessageItem from '../../app/exercise/create-message-item';
 
 QUnit.module('Create Message Item');
 
