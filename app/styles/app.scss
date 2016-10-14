@@ -16,14 +16,16 @@
 }
 
 .navside {
-  width: calc(30% - 2rem);
+  width: calc(30% - 0.1rem);
+  float: left;
   background: black;
   color: white;
   text-align: center;
 }
 
 .main {
-  width: calc(70% - 2rem);
+  width: calc(70% - 0.1rem);
+  float: left;
   float: right;
   background: red;
 }
