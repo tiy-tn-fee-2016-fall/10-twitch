@@ -1,16 +1,23 @@
-export default function game(itemOne, itemTwo) {
+export default function createGameElement(data) {
   const item = document.createElement('div');
   item.classList.add('game-item');
 
-  const itemName = document.createElement('h3');
-  itemName.classList.add('game-item__name');
-  itemName.innerText = itemOne.name;
+  item.innerHTML = `
+ <div className="frame">
+   <h3 class="game-item__name"></h3>
+   <h4 class="game-item__popularity"></h4>
+ </div>
+ <img src="" alt="" class="game-item__pic"/>`;
 
-  const itemPop = document.createElement('h4');
-  itemPop.classList.add('game-item__popularity');
-  itemPop.innerText = itemOne.popularity;
+  const title = item.querySelector('.game-item__name');
+  title.innerText = data.name;
 
-  item.appendChild(itemName);
-  item.appendChild(itemPop);
+  const popularity = item.querySelector('.game-item__popularity');
+  popularity.innerText = data.popularity;
+
+  const pic = item.querySelector('.game-item__pic');
+  pic.src = data.box.large;
+  pic.alt = data.name;
+
   return item;
 }
