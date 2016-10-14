@@ -6,21 +6,24 @@
 @import 'box-sizing';
 
 .fullpage {
+  display: inline;
   margin: 0 auto;
-  background: green;
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
 .navside {
-  flex-basis: calc(30% - 2rem);
-  background: blue;
+  width: calc(30% - 2rem);
+  background: black;
+  color: white;
+  text-align: center;
 }
 
 .main {
-  flex-basis: calc(70% - 2rem);
+  width: calc(70% - 2rem);
+  float: right;
   background: red;
 }
