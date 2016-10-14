@@ -1,7 +1,9 @@
 
 export default function (message) {
   const createMessageItem = document.createElement('li');
-  // const createNewMessage (message.innerHTML);
+  createMessageItem.innerHTML = `
+<span class ='message-item__username'>${message.username}</span>
+${message.message}`;
 
   return createMessageItem;
 }
