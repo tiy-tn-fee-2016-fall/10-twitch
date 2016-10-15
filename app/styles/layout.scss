@@ -10,11 +10,13 @@
   flex-wrap: wrap;
   width: calc(20% - 0.1rem);
   min-width: 10rem;
+  height: 100vh;
   padding: 0.5rem;
   float: left;
   background: $c-black;
   color: $c-white;
   text-align: center;
+  overflow: auto;
 }
 
 .main {
