@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 2rem;
+  // object-fit: none;
 
 
   &-text {
@@ -23,6 +24,7 @@
   }
 
   &-img {
-    // object-fit: contain;
+    object-fit: cover;
+    width: 30%
   }
 }
