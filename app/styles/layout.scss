@@ -1,10 +1,15 @@
 .fullpage {
-  display: inline;
+  // display: inline;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
 .navside {
+  display: flex;
+  flex-wrap: wrap;
   width: calc(20% - 0.1rem);
+  min-width: 10rem;
   padding: 0.5rem;
   float: left;
   background: $c-black;

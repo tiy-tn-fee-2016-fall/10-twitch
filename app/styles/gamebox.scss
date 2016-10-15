@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
   padding: 0 2rem;
-  // object-fit: none;
 
   &-text {
     margin: 0.5rem 0;
@@ -22,9 +22,9 @@
   }
 
   &-img {
-    // object-fit: cover;
     width: 30%;
   }
+
   &:hover {
     background: $c-highlight-black;
   }

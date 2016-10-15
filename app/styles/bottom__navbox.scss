@@ -1,9 +1,15 @@
 .navside__bottom__navbox {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   padding-left: 0.9rem;
-  color: $c-grey;
   font-size: 0.8rem;
   text-align: left;
+
+  & a {
+    color: $c-grey;
+    text-decoration: none;
+  }
 
   &-left {
     display: block;
@@ -18,6 +24,7 @@
   }
 
   & li {
+
     &:hover {
       background: $c-highlight-black;
     }
