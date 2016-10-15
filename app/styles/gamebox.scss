@@ -1,0 +1,28 @@
+.navside__gamebox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2rem;
+
+
+  &-text {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    text-align: left;
+
+
+    & h4 {
+      margin: 0;
+    }
+
+    & p {
+      margin: 0;
+      color: grey;
+      font-size: 0.8rem;
+    }
+  }
+
+  &-img {
+    object-fit: contain;
+  }
+}
