@@ -1,0 +1,29 @@
+.navside__footer {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 100%;
+  background: $c-black;
+
+  &-login {
+    & button {
+      position: static;
+      padding: 0.5rem 1rem;
+      border: 0;
+      background: $c-border-purple;
+      color: $c-grey;
+      font-size: 1rem;
+    }
+  }
+
+  &-signup {
+    & button {
+      position: static;
+      padding: 0.5rem 1rem;
+      border: 0;
+      background: $c-border-purple;
+      color: $c-grey;
+      font-size: 1rem;
+    }
+  }
+}
