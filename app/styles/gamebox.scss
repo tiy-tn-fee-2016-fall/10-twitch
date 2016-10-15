@@ -5,12 +5,10 @@
   padding: 0 2rem;
   // object-fit: none;
 
-
   &-text {
     margin: 0.5rem 0;
     padding-left: 1rem;
     text-align: left;
-
 
     & h5 {
       margin: 0;
@@ -24,7 +22,10 @@
   }
 
   &-img {
-    object-fit: cover;
-    width: 30%
+    // object-fit: cover;
+    width: 30%;
+  }
+  &:hover {
+    background: $c-highlight-black;
   }
 }

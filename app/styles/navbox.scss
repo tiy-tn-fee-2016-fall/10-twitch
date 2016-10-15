@@ -1,5 +1,5 @@
 .navside__navbox {
-  padding-left: 2rem;
+  padding-left: 1rem;
   text-align: left;
 
   &-link {
@@ -13,7 +13,7 @@
       &:hover {
         border-left: 0.2rem solid $c-border-purple;
         background: $c-highlight-black;
+      }
     }
   }
-  }
-  }
+}
