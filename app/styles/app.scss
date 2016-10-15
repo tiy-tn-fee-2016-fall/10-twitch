@@ -6,12 +6,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'layout';
 @import 'gamebox';
-
-.navside__navbox {
-  padding-left: 2rem;
-  text-align: left;
-
-  &-link {
-    color: white;
-  }
-}
+@import 'navbox';
