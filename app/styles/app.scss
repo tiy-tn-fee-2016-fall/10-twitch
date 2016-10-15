@@ -1,9 +1,14 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
-
+$c-black: #000;
+$c-white: #fff;
+$c-highlight-black: #15292e;
+$c-border-purple: #6b0950;
+$c-grey: #D3D3D3;
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'layout';
 @import 'gamebox';
 @import 'navbox';
+@import 'navside__title';
