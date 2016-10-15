@@ -1,0 +1,25 @@
+.navside__bottom__navbox {
+  display: flex;
+  padding-left: 0.9rem;
+  color: $c-grey;
+  font-size: 0.8rem;
+  text-align: left;
+
+  &-left {
+    display: block;
+    width: calc(50% - 1rem);
+    padding-left: 0.5rem;
+  }
+
+  &-right {
+    display: block;
+    width: calc(50% - 1rem);
+    padding-left: 0.5rem;
+  }
+
+  & li {
+    &:hover {
+      background: $c-highlight-black;
+    }
+  }
+}
