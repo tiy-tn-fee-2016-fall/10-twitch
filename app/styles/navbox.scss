@@ -1,5 +1,5 @@
 // this is the box under the future search box, it highlights when hovered. had to make a transparent border to keep the
-// hover from jumping.
+// hover from jumping.  hover is nested too low for lint
 .navside__navbox {
   width: 100%;
   text-align: left;
