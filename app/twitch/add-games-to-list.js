@@ -5,8 +5,8 @@ export default function showGamesInList(parentEl, data) {
   for (let i = 0; i < data.length; i++) {
     const gameItem = data[i];
     createGameElement(gameItem);
-    // gameItem.appendChild(parentEl);
-    // console.log(createGameElement(data[i]));
+    // data.classList.add('gameItem');
+    return gameItem;
+    console.log(gameItem);
   }
 }
-console.log(createGameElement);
