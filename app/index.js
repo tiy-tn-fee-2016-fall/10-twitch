@@ -1,6 +1,6 @@
 import 'whatwg-fetch';
-// Import `data.json`
-// Import `addGamesToList` from `twitch/add-games-to-list`
+import 'data.json';
+import 'twitch/add-games-to-list';
 
 
 // Look up a `ul` element with a class called `results`
