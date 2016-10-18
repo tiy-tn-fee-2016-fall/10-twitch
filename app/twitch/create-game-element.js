@@ -1,5 +1,5 @@
 export default function createGameElement(data) {
-  const item = document.createElement('div');
+  const item = document.createElement('li');
   item.classList.add('game-item');
 
   item.innerHTML = `

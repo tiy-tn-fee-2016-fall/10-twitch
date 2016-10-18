@@ -8,4 +8,5 @@ const ul = document.querySelector('.results');
 for (let i = 0; i < data.length; i++) {
   const x = showGamesInList(data[i]);
   ul.classList.appendChild(x);
+  console.log(x);
 }
