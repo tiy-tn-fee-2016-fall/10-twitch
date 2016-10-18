@@ -1,6 +1,6 @@
 import 'whatwg-fetch';
 import './data.json';
-import './add-games-to-list';
+import './twitch/add-games-to-list';
 
 const ul = document.querySelector('.results');
 // Look up a `ul` element with a class called `results`
