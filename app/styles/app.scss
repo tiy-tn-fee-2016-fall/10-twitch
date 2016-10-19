@@ -25,15 +25,28 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 .game-item {
   display: flex;
-  flex-basis: calc(100% / 5 - 5rem);
-  flex-direction: column-reverse;
-  margin: 1rem;
+  flex-basis: calc(100% / 5 - 2.5rem);
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0.5rem;
+  border: 0.1rem solid $c-black;
+  object-fit: contain;
 
   &__name {
-    color: blue;
+    margin: 0.5rem 0 0 0;
+    color: $c-black;
+    font-size: 1rem;
+  }
+
+  &__popularity {
+    margin: 0;
+    color: $c-border-grey;
+    font-size: 0.8rem;
   }
 }
 
 .frame {
-  // flex-grow: 1;
+  width: 100%;
+  text-align: left;
+
 }
