@@ -1,0 +1,51 @@
+.main__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 2rem 0;
+  color: $c-darkgrey;
+  vertical-align: baseline;
+
+  &-title {
+    margin: 1rem 0;
+  }
+
+  &-search {
+    padding: 0.3rem 7rem 0.3rem 0.3rem;
+    border: 0.1rem solid $c-darkgrey;
+    text-align: left;
+  }
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-item {
+  display: flex;
+  flex-basis: calc(100% / 5 - 2.5rem);
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0.5rem;
+  object-fit: contain;
+
+  &__name {
+    margin-top: 0.5rem;
+    color: $c-black;
+    font-size: 1rem;
+  }
+
+  &__popularity {
+    margin: 0;
+    color: $c-darkgrey;
+    font-size: 0.8rem;
+  }
+}
+
+.frame {
+  width: 100%;
+  text-align: left;
+
+}
