@@ -22,7 +22,6 @@
   overflow: auto;
 }
 
-
 .main {
   display: flex;
   flex-direction: column;
@@ -40,13 +39,55 @@ img {
 ul {
   list-style: none;
 }
-
 @media (max-width: 1000px) {
   .navside-mobile {
     display: flex;
+    flex-direction: column;
   }
+
   .navside {
-    // display: none;
-    flex-direction: row;
+    // width: 10%;
+    max-width: 5rem;
+    min-width: 4rem;
+  }
+
+  .navside__title {
+    display: none;
+  }
+
+  .navside__navbox {
+    display: none;
+  }
+
+  .navside__searchbar {
+    display: none;
+  }
+
+  .navside__borderbox {
+    display: none;
+  }
+
+  .navside__gamebox {
+    display: none;
+
+    &-text {
+      display: none;
+    }
+  }
+  .navside__bottom__navbox {
+    flex-direction: column;
+    padding-left: 0;
+
+    &-left {
+      display: none;
+      padding-left: 0;
+    }
+    &-right {
+      display: none;
+      padding-left: 0;
+    }
+  }
+  .navside__footer {
+    display: none;
   }
 }
