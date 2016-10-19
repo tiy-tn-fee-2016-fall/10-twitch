@@ -4,8 +4,8 @@
 .fullpage {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -17,7 +17,6 @@
   min-width: 10rem;
   height: 100vh;
   padding: 0.5rem;
-  float: left;
   background: $c-black;
   color: $c-white;
   text-align: center;
@@ -25,10 +24,13 @@
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   width: calc(80% - 0.1rem);
+  height: 100vh;
+  overflow: auto;
 
-  // float: right;
-  // background: red;
 }
 
 img {
