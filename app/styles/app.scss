@@ -5,6 +5,7 @@ $c-white: #fff;
 $c-highlight-black: #15292e;
 $c-border-purple: #6b0950;
 $c-grey: #d3d3d3;
+$c-darkgrey: #676562;
 $c-border-grey: rgba(#a48099,.59);
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -16,6 +17,26 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'nav__borderbox';
 @import 'bottom__navbox';
 @import 'footer';
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 2rem 0;
+  color: $c-darkgrey;
+  vertical-align: baseline;
+
+
+  &-title {
+    margin: 1rem 0;
+  }
+
+  &-search {
+    padding: 0.3rem 7rem 0.3rem 0.3rem;
+    border: 0.1rem solid $c-darkgrey;
+    text-align: left;
+    // vertical-align: baseline;
+  }
+}
 
 .results {
   display: flex;
@@ -29,7 +50,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   flex-direction: column;
   flex-grow: 1;
   margin: 0.5rem;
-  border: 0.1rem solid $c-black;
+  // border: 0.1rem solid $c-black;
   object-fit: contain;
 
   &__name {
@@ -40,7 +61,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &__popularity {
     margin: 0;
-    color: $c-border-grey;
+    color: $c-darkgrey;
     font-size: 0.8rem;
   }
 }
