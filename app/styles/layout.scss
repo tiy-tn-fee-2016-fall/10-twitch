@@ -3,6 +3,8 @@
 
 .fullpage {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto;
 }
@@ -24,7 +26,8 @@
 
 .main {
   width: calc(80% - 0.1rem);
-  float: right;
+
+  // float: right;
   // background: red;
 }
 

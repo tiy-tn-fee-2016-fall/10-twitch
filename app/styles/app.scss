@@ -16,3 +16,24 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'nav__borderbox';
 @import 'bottom__navbox';
 @import 'footer';
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-item {
+  display: flex;
+  flex-basis: calc(100% / 5 - 5rem);
+  flex-direction: column-reverse;
+  margin: 1rem;
+
+  &__name {
+    color: blue;
+  }
+}
+
+.frame {
+  // flex-grow: 1;
+}
