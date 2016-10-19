@@ -42,7 +42,11 @@ ul {
 }
 
 @media (max-width: 1000px) {
+  .navside-mobile {
+    display: flex;
+  }
   .navside {
-    display: none;
+    // display: none;
+    flex-direction: row;
   }
 }
