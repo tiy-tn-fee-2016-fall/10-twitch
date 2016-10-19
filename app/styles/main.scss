@@ -11,8 +11,10 @@
   }
 
   &-search {
-    padding: 0.3rem 7rem 0.3rem 0.3rem;
-    border: 0.1rem solid $c-darkgrey;
+    width: 30%;
+    padding: 0.3rem;
+    border: 0.1rem solid $c-grey;
+    color: $c-grey;
     text-align: left;
   }
 }
@@ -28,24 +30,29 @@
   flex-basis: calc(100% / 5 - 2.5rem);
   flex-direction: column;
   flex-grow: 1;
+  min-width: 8rem;
   margin: 0.5rem;
   object-fit: contain;
 
   &__name {
+    height: 1.15rem;
     margin-top: 0.5rem;
     color: $c-black;
     font-size: 1rem;
+    overflow: hidden;
+    // border: 0.1rem solid black;
   }
 
   &__popularity {
     margin: 0;
     color: $c-darkgrey;
     font-size: 0.8rem;
+    // border: 0.1rem solid black;
   }
 }
 
 .frame {
   width: 100%;
   text-align: left;
-
+  border: 0.1rem solid black;
 }

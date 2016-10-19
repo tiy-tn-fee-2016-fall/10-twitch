@@ -18,12 +18,3 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'bottom__navbox';
 @import 'footer';
 @import 'main';
-
-.navside__searchbar {
-  width: 100%;
-  padding: 0.3rem;
-  border: 0.1rem solid $c-border-grey;
-  color: $c-grey;
-  background: $c-highlight-black;
-  text-align: left;
-}
