@@ -41,14 +41,18 @@ ul {
 }
 @media (max-width: 1000px) {
   .navside-mobile {
+    // display: flex;
+    // flex-direction: column;
+  }
+  .icons {
     display: flex;
     flex-direction: column;
+    color: $c-white;
   }
-
   .navside {
     // width: 10%;
-    max-width: 5rem;
     min-width: 4rem;
+    max-width: 5rem;
   }
 
   .navside__title {
