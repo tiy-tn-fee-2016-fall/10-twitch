@@ -41,8 +41,8 @@ ul {
 }
 @media (max-width: 1000px) {
   .navside-mobile {
-    // display: flex;
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .icons {
@@ -85,13 +85,13 @@ ul {
     padding-left: 0;
 
     &-left {
-      display: none;
-      padding-left: 0;
+      // display: none;
+      // padding-left: 0;
     }
 
     &-right {
-      display: none;
-      padding-left: 0;
+      // display: none;
+      // padding-left: 0;
     }
   }
 
