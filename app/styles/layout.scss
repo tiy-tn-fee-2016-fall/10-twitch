@@ -48,6 +48,7 @@ ul {
   .icons {
     display: flex;
     flex-direction: column;
+    width: 3rem;
     color: $c-white;
   }
 
@@ -72,10 +73,14 @@ ul {
     }
 
     &__gamebox {
-      display: none;
+      // display: none;
 
       &-text {
         display: none;
+      }
+      &-img {
+        width: 2rem;
+        padding-left: 1rem;
       }
     }
   }
