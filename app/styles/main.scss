@@ -5,7 +5,6 @@
   margin: 2rem 2rem 0;
   color: $c-darkgrey;
 
-
   &-title {
     margin: 0;
   }
@@ -24,7 +23,7 @@
 
 .game-item {
   display: flex;
-  flex-basis: calc(100% / 5 - 2.5rem);
+  flex-basis: calc(100% / 3 - 2.5rem);
   flex-direction: column;
   flex-grow: 1;
   min-width: 8rem;

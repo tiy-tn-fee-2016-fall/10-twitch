@@ -2,8 +2,8 @@
 // screenshot bar on the left
 
 .fullpage {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -83,6 +83,7 @@ ul {
       &-text {
         display: none;
       }
+
       &-img {
         width: 2rem;
         padding-left: 1rem;
