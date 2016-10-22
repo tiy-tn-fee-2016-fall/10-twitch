@@ -1,6 +1,5 @@
 .main__header {
   display: flex;
-  // flex-wrap: wrap;
   flex-grow: 1;
   justify-content: space-between;
   margin: 2rem 2rem 0;
@@ -13,6 +12,7 @@
 
   &-search {
     width: 30%;
+    font-size: 0.8rem;
   }
 }
 
@@ -37,14 +37,12 @@
     color: $c-black;
     font-size: 1rem;
     overflow: hidden;
-    // border: 0.1rem solid black;
   }
 
   &__popularity {
     margin: 0;
     color: $c-darkgrey;
     font-size: 0.8rem;
-    // border: 0.1rem solid black;
   }
 }
 

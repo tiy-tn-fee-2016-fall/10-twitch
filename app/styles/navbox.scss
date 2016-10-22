@@ -8,7 +8,7 @@
   font-size: 1.4rem;
 
   & input {
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     padding: 0.2rem;
     padding-right: 1.3rem;
     border: 0.1rem solid $c-border-purple;
@@ -26,8 +26,8 @@
     margin: 0;
     margin-bottom: 0.5rem;
     color: $c-white;
-    text-decoration: none;
     font-size: 1.3rem;
+    text-decoration: none;
 
     & h2 {
       padding: 0 1rem;
@@ -48,6 +48,6 @@
 
 .icons {
   display: none;
-  color: white;
+  color: $c-white;
 
 }

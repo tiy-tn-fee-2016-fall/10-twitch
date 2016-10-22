@@ -13,7 +13,7 @@ export default function createGameElement(game) {
   title.innerText = game.game.name;
 
   const popularity = item.querySelector('.game-item__popularity');
-  popularity.innerText = game.game.popularity;
+  popularity.innerText = game.game.popularity + ' Viewers';
 
   const pic = item.querySelector('.game-item__pic');
   pic.src = game.game.box.large;
