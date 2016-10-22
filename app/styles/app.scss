@@ -27,15 +27,15 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &__text {
     margin-bottom: 2rem;
+
     &-heading {
+      }
 
-    }
     &-info {
-
-    }
+      }
   }
-  &__box {
 
+  &__box {
     &-ind {
       margin-right: 1rem;
       margin-bottom: 0.5rem;
@@ -44,7 +44,32 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
       background: $c-white;
     }
   }
+
   &__footer {
+    position: relative;
+    width: 100%;
+    padding-top: 2rem;
+    background: $c-grey;
+
+    &-login {
+      & button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        background: $c-border-purple;
+        color: $c-grey;
+        font-size: 1rem;
+      }
+    }
+
+    &-signup {
+      & button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        background: $c-border-purple;
+        color: $c-grey;
+        font-size: 1rem;
+      }
+    }
 
   }
 }
