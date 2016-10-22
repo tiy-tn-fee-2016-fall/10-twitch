@@ -1,0 +1,55 @@
+.logside {
+  position: fixed;
+  right: 0;
+  width: 25%;
+  height: 100vh;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  background: $c-grey;
+
+  &__text {
+    margin-bottom: 2rem;
+
+    &-heading {}
+
+    &-info {}
+  }
+
+  &__box {
+    &-ind {
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+      padding: 0.2rem;
+      border-left: 0.2rem solid $c-border-purple;
+      background: $c-white;
+    }
+  }
+
+  &__footer {
+    position: relative;
+    width: 100%;
+    padding-top: 2rem;
+    background: $c-grey;
+
+    &-login {
+      & button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        background: $c-border-purple;
+        color: $c-grey;
+        font-size: 1rem;
+      }
+    }
+
+    &-signup {
+      & button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        background: $c-border-purple;
+        color: $c-grey;
+        font-size: 1rem;
+      }
+    }
+
+  }
+}

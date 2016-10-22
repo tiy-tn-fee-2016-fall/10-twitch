@@ -1,10 +1,8 @@
-// not getting the positioning correct. when absolute the footer takes the width of whole page not the sidebar
-// might need to put the footer outside the sidebar and float it left under the side by adjusting heights
-// instead of side 100vh maybe 90vh and footer 10vh
-
 .navside__footer {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  top: 90%;
+  width: 19%;
+  height: 10%;
   padding-top: 1rem;
   background: $c-black;
 
@@ -31,6 +29,5 @@
 
 .footer__container {
   display: flex;
-  // position: absolute;
   justify-content: space-around;
 }

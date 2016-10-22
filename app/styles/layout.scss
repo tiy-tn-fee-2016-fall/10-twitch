@@ -1,6 +1,3 @@
-// not sure if i still need a right side box if so i might move the navside to the right and create the
-// screenshot bar on the left
-
 .fullpage {
   display: flex;
   position: relative;
@@ -30,8 +27,8 @@
   flex-direction: column;
   flex-grow: 1;
   width: calc(54% - 0.1rem);
-  padding-left: 20%;
   padding-right: 25%;
+  padding-left: 20%;
   overflow: auto;
 
 }
@@ -57,7 +54,20 @@ ul {
     color: $c-white;
   }
 
+  .logside {
+    display: none;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .game-item {
+    flex-basis: calc(100% / 5 - 2.5rem);
+  }
+
   .navside {
+    position: initial;
     min-width: 3rem;
     max-width: 4rem;
 
@@ -78,8 +88,6 @@ ul {
     }
 
     &__gamebox {
-      // display: none;
-
       &-text {
         display: none;
       }
