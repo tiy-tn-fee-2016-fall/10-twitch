@@ -20,7 +20,10 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'layout';
 
 .logside {
+  position: fixed;
+  right: 0%;
   width: 25%;
+  height: 100vh;
   padding-top: 2rem;
   padding-left: 1rem;
   background: $c-grey;

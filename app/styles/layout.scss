@@ -11,9 +11,9 @@
 }
 
 .navside {
+  display: flex;
   position: fixed;
   right: 80%;
-  display: flex;
   flex-wrap: wrap;
   width: calc(20% - 0.1rem);
   min-width: 12rem;
@@ -31,6 +31,7 @@
   flex-grow: 1;
   width: calc(54% - 0.1rem);
   padding-left: 20%;
+  padding-right: 25%;
   overflow: auto;
 
 }
