@@ -1,6 +1,5 @@
 .main__header {
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
   margin: 2rem 2rem 0;
   color: $c-darkgrey;
@@ -27,6 +26,7 @@
   flex-direction: column;
   flex-grow: 1;
   min-width: 8rem;
+  max-width: 15rem;
   margin: 0.5rem;
   object-fit: contain;
 

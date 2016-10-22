@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   width: calc(20% - 0.1rem);
   min-width: 12rem;
-  height: 100vh;
+  height: 100%;
   padding: 0.5rem;
   background: $c-black;
   color: $c-white;
@@ -52,6 +52,10 @@ ul {
     width: 3rem;
     padding-bottom: 0.9rem;
     color: $c-white;
+
+    &:hover {
+      background: $c-highlight-black;
+    }
   }
 
   .logside {
