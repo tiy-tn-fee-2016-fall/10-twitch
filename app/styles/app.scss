@@ -26,8 +26,20 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
   &-btn {
     position: relative;
+    margin-top: 1rem;
     margin-right: 1rem;
     padding: 0.5rem;
+    border: 0;
+    background: transparent;
+
+    &:checked {
+      .main__triangle-collapse {
+        display: none;
+      }
+      .main__triangle-expand {
+        display: flex;
+      }
+    }
 
     & i {
       position: absolute;
@@ -35,5 +47,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
       color: $c-darkgrey;
 
     }
+  }
+  &-expand {
+    display: none;
   }
 }
