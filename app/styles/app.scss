@@ -19,3 +19,21 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'main';
 @import 'layout';
 @import 'logside';
+
+.main__triangle {
+  display: flex;
+  justify-content: flex-end;
+
+  &-btn {
+    position: relative;
+    margin-right: 1rem;
+    padding: 0.5rem;
+
+    & i {
+      position: absolute;
+      bottom: 25%;
+      color: $c-darkgrey;
+
+    }
+  }
+}
