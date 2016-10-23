@@ -10,14 +10,14 @@ export default function createGameElement(game) {
  </div>`;
 
   const title = item.querySelector('.game-item__name');
-  title.innerText = game.game.name;
+  title.innerText = game.name;
 
   const popularity = item.querySelector('.game-item__popularity');
-  popularity.innerText = game.game.popularity + ' Viewers';
+  popularity.innerText = game.popularity + ' Viewers';
 
   const pic = item.querySelector('.game-item__pic');
-  pic.src = game.game.box.large;
-  pic.alt = game.game.name;
+  pic.src = game.box.large;
+  pic.alt = game.name;
 
   return item;
 }
