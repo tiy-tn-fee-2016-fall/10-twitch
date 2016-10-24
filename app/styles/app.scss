@@ -32,7 +32,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     border: 0;
     background: transparent;
 
-    &:checked {
+    &:active {
       .main__triangle-collapse {
         display: none;
       }
