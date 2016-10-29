@@ -2,11 +2,13 @@
 
 .navside__bottom__navbox {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 4rem;
   padding-left: 0.9rem;
   font-size: 0.8rem;
+  font-weight: lighter;
   text-align: left;
 
   & a {
