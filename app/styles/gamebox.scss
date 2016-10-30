@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  padding-left: 1.6rem;
 
   &-text {
     margin: 0.5rem 0;
@@ -14,13 +15,15 @@
 
     & h5 {
       margin: 0;
-      font-weight: lighter;
+      color: $c-titlewhite;
+      font-size: 0.8rem;
     }
 
     & p {
       margin: 0;
       color: $c-grey;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
+      font-weight: lighter;
     }
   }
 

@@ -48,12 +48,19 @@ ul {
     display: flex;
     flex-direction: column;
     width: 3rem;
+    padding-top: 0.3rem;
     padding-bottom: 0.9rem;
     color: $c-white;
 
     &:hover {
       background: $c-highlight-black;
     }
+  }
+
+  .fa-bdr {
+    margin-bottom: 2rem;
+    border-bottom: 0.1rem solid $c-border-grey;
+
   }
 
   .logside {
@@ -90,6 +97,7 @@ ul {
     }
 
     &__gamebox {
+      display: none;
       &-text {
         display: none;
       }
@@ -102,6 +110,7 @@ ul {
   }
 
   .navside__bottom__navbox {
+    display: none;
     flex-direction: column;
     padding-left: 0;
     font-size: 0.3rem;

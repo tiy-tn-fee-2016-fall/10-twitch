@@ -3,13 +3,12 @@
 
 .navside__searchbar {
   width: 100%;
-  margin-bottom: 0.5rem;
   font-size: 1.4rem;
 
   & input {
     margin-right: 1rem;
     padding: 0.2rem 1.3rem 0.2rem 0.2rem;
-    border: 0.1rem solid $c-border-purple;
+    border: 0.1rem solid $c-border-grey;
     outline: 0;
     background: $c-highlight-black;
     color: $c-border-grey;
