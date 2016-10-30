@@ -59,8 +59,13 @@ ul {
 
   .fa-bdr {
     margin-bottom: 2rem;
+  }
+  .spacer {
     border-bottom: 0.1rem solid $c-border-grey;
-
+  }
+  .fa-user {
+    padding: 0.4rem 0;
+    background: $c-border-purple;
   }
 
   .logside {
@@ -98,6 +103,7 @@ ul {
 
     &__gamebox {
       display: none;
+
       &-text {
         display: none;
       }
@@ -115,15 +121,6 @@ ul {
     padding-left: 0;
     font-size: 0.3rem;
 
-    &-left {
-      // display: none;
-      // padding-left: 0;
-    }
-
-    &-right {
-      // display: none;
-      // padding-left: 0;
-    }
   }
 
   .navside__footer {
