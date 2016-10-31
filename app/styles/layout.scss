@@ -28,7 +28,6 @@
   width: calc(54% - 0.1rem);
   padding-right: 25%;
   overflow: auto;
-
 }
 
 img {
@@ -60,9 +59,11 @@ ul {
   .fa-bdr {
     margin-bottom: 2rem;
   }
+
   .spacer {
     border-bottom: 0.1rem solid $c-border-grey;
   }
+
   .fa-user {
     padding: 0.4rem 0;
     background: $c-border-purple;
