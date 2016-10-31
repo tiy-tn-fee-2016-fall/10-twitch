@@ -2,19 +2,32 @@
 // hover from jumping.  hover is nested too low for lint
 
 .navside__searchbar {
+  position: relative;
   width: 100%;
-  font-size: 1.4rem;
+  margin-left: 1.55rem;
+  padding: 0;
+  text-align: left;
 
   & input {
-    margin-right: 1rem;
-    padding: 0.2rem 1.3rem 0.2rem 0.2rem;
+    width: 90%;
+    padding: 0.4rem 0.4rem 0.4rem 1.75rem;
     border: 0.1rem solid $c-border-grey;
     outline: 0;
     background: $c-highlight-black;
-    color: $c-border-grey;
-    font-size: 0.8rem;
+    color: $c-white;
+    font-size: 1rem;
 
   }
+}
+
+.fa-move {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
+.fa-play {
+  padding-right: 0.2rem;
 }
 
 .navside__navbox {
@@ -44,7 +57,6 @@
       color: $c-white;
       font-size: 1rem;
       font-weight: lighter;
-
     }
   }
 }
@@ -57,5 +69,4 @@
 .icons {
   display: none;
   color: $c-white;
-
 }
