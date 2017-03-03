@@ -1,0 +1,40 @@
+// i think this looks good.  might need to make highlight extend further to the edge
+
+.navside__bottom__navbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+  padding-left: 1.1rem;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-align: left;
+
+  & a {
+    color: $c-grey;
+    text-decoration: none;
+  }
+
+  & li {
+    padding-bottom: 0.3rem;
+  }
+
+  &-left {
+    display: block;
+    width: calc(50% - 1rem);
+    padding-left: 0.5rem;
+  }
+
+  &-right {
+    display: block;
+    width: calc(50% - 1rem);
+    padding-left: 0.5rem;
+  }
+
+  & li {
+    &:hover {
+      background: $c-highlight-black;
+    }
+  }
+}

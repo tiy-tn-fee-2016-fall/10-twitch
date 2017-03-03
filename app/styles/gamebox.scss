@@ -1,0 +1,37 @@
+// not sure that the images are right tried object fit and it didnt help--maybe not in the right place
+
+.navside__gamebox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 1.6rem;
+
+  &-text {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    font-weight: lighter;
+    text-align: left;
+
+    & h5 {
+      margin: 0;
+      color: $c-titlewhite;
+      font-size: 0.8rem;
+    }
+
+    & p {
+      margin: 0;
+      color: $c-grey;
+      font-size: 0.6rem;
+      font-weight: lighter;
+    }
+  }
+
+  &-img {
+    width: 30%;
+  }
+
+  &:hover {
+    background: $c-highlight-black;
+  }
+}

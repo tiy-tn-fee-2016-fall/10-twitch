@@ -1,0 +1,13 @@
+// not sure if this is right, im thinking this will be js but im not sure
+// maybe need the dropdown in the top borderbox
+
+.navside__borderbox {
+  width: 100%;
+  margin: 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem inset $c-border-grey;
+  color: $c-grey;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  text-align: left;
+}

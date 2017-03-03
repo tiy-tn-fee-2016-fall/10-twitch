@@ -1,6 +1,56 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
-
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$c-black: #17141f;
+$c-white:#dad8de;
+$c-titlewhite: #fff;
+$c-highlight-black: #201c2b;
+$c-border-purple: #6441a4;
+$c-grey: #efeef1;
+$c-darkgrey: #89838e;
+$c-border-grey: rgba($c-border-purple,0.50);
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+@import 'navbox';
+@import 'bottom__navbox';
+@import 'gamebox';
+@import 'navside__title';
+@import 'nav__borderbox';
+@import 'footer';
+@import 'main';
+@import 'layout';
+@import 'logside';
+
+.main__triangle {
+  display: flex;
+  justify-content: space-between;
+
+  &-btn {
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+    &:active {
+      .main__triangle-collapse {
+        display: none;
+      }
+      .main__triangle-expand {
+        display: flex;
+      }
+    }
+
+    & i {
+      position: absolute;
+      bottom: 25%;
+      color: $c-darkgrey;
+
+    }
+  }
+  &-expand {
+    display: none;
+  }
+}

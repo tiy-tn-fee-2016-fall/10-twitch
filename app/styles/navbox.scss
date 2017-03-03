@@ -1,0 +1,72 @@
+// this is the box under the future search box, it highlights when hovered. had to make a transparent border to keep the
+// hover from jumping.  hover is nested too low for lint
+
+.navside__searchbar {
+  position: relative;
+  width: 100%;
+  margin-left: 1.55rem;
+  padding: 0;
+  text-align: left;
+
+  & input {
+    width: 90%;
+    padding: 0.4rem 0.4rem 0.4rem 1.75rem;
+    border: 0.1rem solid $c-border-grey;
+    outline: 0;
+    background: $c-highlight-black;
+    color: $c-white;
+    font-size: 1rem;
+
+  }
+}
+
+.fa-move {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
+.fa-play {
+  padding-right: 0.2rem;
+}
+
+.navside__navbox {
+  width: 100%;
+  margin: 1rem;
+  padding: 0;
+  text-align: left;
+
+  &-link {
+    display: flex;
+    align-items: center;
+    border-left: 0.2rem solid transparent;
+    color: $c-white;
+    text-decoration: none;
+
+    &:hover {
+      border-left: 0.2rem solid $c-border-purple;
+      background: $c-highlight-black;
+    }
+
+    & i {
+      margin-left: 0.4rem;
+    }
+
+    & h2 {
+      padding-left: 0.5rem;
+      color: $c-white;
+      font-size: 1rem;
+      font-weight: lighter;
+    }
+  }
+}
+
+.navside-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: none;
+  color: $c-white;
+}

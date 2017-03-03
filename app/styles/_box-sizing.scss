@@ -6,8 +6,21 @@ html {
 * {
   box-sizing: inherit;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     box-sizing: inherit;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+button {
+  outline: 0;
+
+  &:active {
+    margin-top: 0.2rem;
   }
 }

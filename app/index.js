@@ -1,7 +1,9 @@
 import 'whatwg-fetch';
-// Import `data.json`
-// Import `addGamesToList` from `twitch/add-games-to-list`
+import data from './data.json';
+import showGamesInList from './twitch/add-games-to-list';
 
+const ul = document.querySelector('.results');
 
-// Look up a `ul` element with a class called `results`
-// Add games to the results list based on the data from `data.json`
+const x = showGamesInList(ul, data.top);
+
+// debugger;

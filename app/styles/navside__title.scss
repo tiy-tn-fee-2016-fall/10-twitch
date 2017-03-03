@@ -1,0 +1,7 @@
+.navside__title {
+  // I tried to recreate the logo, its still not right but kinda close
+  width: 100%;
+  color: $c-black;
+  text-shadow: 1px 6px 0 $c-titlewhite, -2px -2px 0 $c-titlewhite, -2px 2px 0 $c-titlewhite, -2px 2px 0 $c-titlewhite, 3px 3px 0 $c-titlewhite;
+  text-stroke: 1px $c-black;
+}
